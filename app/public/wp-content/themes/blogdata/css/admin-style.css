@@ -1,0 +1,29 @@
+.widgets-holder-wrap [id*="blogdata"] .widget-top {
+	background: #4caf50;
+    box-shadow: none !important;
+    border: none !important;
+}
+.widgets-holder-wrap [id*="blogdata"] .widget-top h3 {
+	color: #fff;
+}
+.customize-control-hidden {
+    margin: 15px -12px;
+    margin-bottom: 12px;
+    display: block;
+    padding: 13px 12px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #4296f4;
+    background: #f9f9f9!important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #4296f4;
+}
+.customize-control-hidden label {
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 14px;
+    cursor: default;
+}

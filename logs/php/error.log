@@ -1,0 +1,297 @@
+[22-Oct-2024 10:12:28 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\elementor\includes\template-library\sources\local.php:896
+Stack trace:
+#0 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\elementor\includes\template-library\manager.php(458): Elementor\TemplateLibrary\Source_Local->import_template('flower-shop-lit...', 'C:\\Windows\\Temp...')
+#1 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\elementor\includes\template-library\manager.php(677): Elementor\TemplateLibrary\Manager->direct_import_template(Array)
+#2 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(324): Elementor\TemplateLibrary\Manager->handle_direct_actions('')
+#3 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#6 {main}
+  thrown in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 896
+[22-Oct-2024 13:23:40 UTC] PHP Warning:  rename(C:\Windows\TEMP/woocommerce.9.3.3-4Vg6CH.tmp,C:\Windows\TEMP/woocommerce.9.3.3.zip): Accès refusé (code: 5) in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-admin\includes\file.php on line 1234
+[22-Oct-2024 13:23:40 UTC] PHP Warning:  unlink(C:\Windows\TEMP/woocommerce.9.3.3.zip): Resource temporarily unavailable in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-admin\includes\file.php on line 1239
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for admin-layout. Args: admin-layout..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for explat. Args: explat..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for experimental. Args: experimental..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for customer-effort-score. Args: customer-effort-score..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for notices. Args: notices..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for number. Args: number..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for tracks. Args: tracks..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for date. Args: date..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for components. Args: components..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for app. Args: app..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for csv-export. Args: csv-export..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for data. Args: data..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for currency. Args: currency..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for navigation. Args: navigation..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for block-templates. Args: block-templates..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for product-editor. Args: product-editor..
+[22-Oct-2024 15:01:50 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for remote-logging. Args: remote-logging..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for admin-layout. Args: admin-layout..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for explat. Args: explat..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for experimental. Args: experimental..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for customer-effort-score. Args: customer-effort-score..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for notices. Args: notices..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for number. Args: number..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for tracks. Args: tracks..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for date. Args: date..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for components. Args: components..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for app. Args: app..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for csv-export. Args: csv-export..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for data. Args: data..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for currency. Args: currency..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for navigation. Args: navigation..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for block-templates. Args: block-templates..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for product-editor. Args: product-editor..
+[22-Oct-2024 15:02:25 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for remote-logging. Args: remote-logging..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for admin-layout. Args: admin-layout..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for explat. Args: explat..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for experimental. Args: experimental..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for customer-effort-score. Args: customer-effort-score..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for notices. Args: notices..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for number. Args: number..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for tracks. Args: tracks..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for date. Args: date..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for components. Args: components..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for app. Args: app..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for csv-export. Args: csv-export..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for data. Args: data..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for currency. Args: currency..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for navigation. Args: navigation..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for block-templates. Args: block-templates..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for product-editor. Args: product-editor..
+[22-Oct-2024 15:02:30 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for remote-logging. Args: remote-logging..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for admin-layout. Args: admin-layout..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for explat. Args: explat..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for experimental. Args: experimental..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for customer-effort-score. Args: customer-effort-score..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for notices. Args: notices..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for number. Args: number..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for tracks. Args: tracks..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for date. Args: date..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for components. Args: components..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for app. Args: app..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for csv-export. Args: csv-export..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for data. Args: data..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for currency. Args: currency..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for navigation. Args: navigation..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for block-templates. Args: block-templates..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for product-editor. Args: product-editor..
+[22-Oct-2024 15:07:42 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for remote-logging. Args: remote-logging..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for admin-layout. Args: admin-layout..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for explat. Args: explat..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for experimental. Args: experimental..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for customer-effort-score. Args: customer-effort-score..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for notices. Args: notices..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for number. Args: number..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for tracks. Args: tracks..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for date. Args: date..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for components. Args: components..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for app. Args: app..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for csv-export. Args: csv-export..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for data. Args: data..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for currency. Args: currency..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for navigation. Args: navigation..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for block-templates. Args: block-templates..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for product-editor. Args: product-editor..
+[22-Oct-2024 15:07:46 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for remote-logging. Args: remote-logging..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for admin-layout. Args: admin-layout..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for explat. Args: explat..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for experimental. Args: experimental..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for customer-effort-score. Args: customer-effort-score..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for notices. Args: notices..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for number. Args: number..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for tracks. Args: tracks..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for date. Args: date..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for components. Args: components..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for app. Args: app..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for csv-export. Args: csv-export..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for data. Args: data..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for currency. Args: currency..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for navigation. Args: navigation..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for block-templates. Args: block-templates..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for product-editor. Args: product-editor..
+[22-Oct-2024 15:07:51 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for remote-logging. Args: remote-logging..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for admin-layout. Args: admin-layout..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for explat. Args: explat..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for experimental. Args: experimental..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for customer-effort-score. Args: customer-effort-score..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for notices. Args: notices..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for number. Args: number..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for tracks. Args: tracks..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for date. Args: date..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for components. Args: components..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for app. Args: app..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for csv-export. Args: csv-export..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for data. Args: data..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for currency. Args: currency..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for navigation. Args: navigation..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for block-templates. Args: block-templates..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for product-editor. Args: product-editor..
+[22-Oct-2024 15:07:53 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for remote-logging. Args: remote-logging..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for admin-layout. Args: admin-layout..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for explat. Args: explat..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for experimental. Args: experimental..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for customer-effort-score. Args: customer-effort-score..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for notices. Args: notices..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for number. Args: number..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for tracks. Args: tracks..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for date. Args: date..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for components. Args: components..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for app. Args: app..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for csv-export. Args: csv-export..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for data. Args: data..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for currency. Args: currency..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for navigation. Args: navigation..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for block-templates. Args: block-templates..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for product-editor. Args: product-editor..
+[22-Oct-2024 15:08:37 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for remote-logging. Args: remote-logging..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for admin-layout. Args: admin-layout..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for explat. Args: explat..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for experimental. Args: experimental..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for customer-effort-score. Args: customer-effort-score..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for notices. Args: notices..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for number. Args: number..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for tracks. Args: tracks..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for date. Args: date..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for components. Args: components..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for app. Args: app..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for csv-export. Args: csv-export..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for data. Args: data..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for currency. Args: currency..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for navigation. Args: navigation..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for block-templates. Args: block-templates..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for product-editor. Args: product-editor..
+[22-Oct-2024 15:08:55 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for remote-logging. Args: remote-logging..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for admin-layout. Args: admin-layout..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for explat. Args: explat..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for experimental. Args: experimental..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for customer-effort-score. Args: customer-effort-score..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for notices. Args: notices..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for number. Args: number..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for tracks. Args: tracks..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for date. Args: date..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for components. Args: components..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for app. Args: app..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for csv-export. Args: csv-export..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for data. Args: data..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for currency. Args: currency..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for navigation. Args: navigation..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for block-templates. Args: block-templates..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for product-editor. Args: product-editor..
+[22-Oct-2024 15:09:12 UTC] Exception caught in Automattic\WooCommerce\Internal\Admin\WCAdminAssets::register_scripts. Could not find asset registry for remote-logging. Args: remote-logging..
+[22-Oct-2024 15:21:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\index.php(17): require('C:\\Users\\CARBAL...')
+#12 {main}
+  thrown in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[22-Oct-2024 15:24:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\index.php(17): require('C:\\Users\\CARBAL...')
+#12 {main}
+  thrown in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[22-Oct-2024 15:27:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\index.php(17): require('C:\\Users\\CARBAL...')
+#12 {main}
+  thrown in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[22-Oct-2024 15:30:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\index.php(17): require('C:\\Users\\CARBAL...')
+#12 {main}
+  thrown in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[22-Oct-2024 15:32:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\index.php(17): require('C:\\Users\\CARBAL...')
+#12 {main}
+  thrown in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[22-Oct-2024 15:41:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\index.php(17): require('C:\\Users\\CARBAL...')
+#12 {main}
+  thrown in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[22-Oct-2024 17:09:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php:354
+Stack trace:
+#0 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#1 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#2 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api\class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\rest-api.php(420): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#4 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\class-wp.php(813): WP->parse_request('')
+#9 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-includes\functions.php(1336): WP->main('')
+#10 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\index.php(17): require('C:\\Users\\CARBAL...')
+#12 {main}
+  thrown in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 354
+[22-Oct-2024 20:12:16 UTC] PHP Warning:  Undefined array key "class" in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\includes\admin\include\admin_field-manager.php on line 445
+[22-Oct-2024 20:12:20 UTC] PHP Warning:  Undefined array key "class" in C:\Users\CARBALLO\Local Sites\laviedesplantes\app\public\wp-content\plugins\woolentor-addons\includes\admin\include\admin_field-manager.php on line 445
+[23-Oct-2024 16:25:13 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}

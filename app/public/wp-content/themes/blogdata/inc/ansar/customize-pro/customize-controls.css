@@ -1,0 +1,29 @@
+body #accordion-section-blogdata_pro_upsell h3 {
+    display: flex;
+    border-bottom: 2px solid #eee;
+}
+body #accordion-section-blogdata_pro_upsell h3 .button-secondary{
+    background: linear-gradient(276deg, #a90e6d 0%, #1e37c3 100%) !important;
+    color: #fff;
+    padding: 6px 13px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #a90e6d;
+    transition: all 0.3s;
+}
+body #accordion-section-blogdata_pro_upsell h3 .button-secondary:hover{
+    background: #fff !important;
+    color: #a90e6d;
+}
+body #accordion-section-blogdata_support_form h3{
+    display: flex; 
+}
+body #accordion-section-blogdata_support_form h3 .button-secondary{
+    background-color: #2271b1;
+    color: #fff;
+    padding: 6px 13px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #2271b1;
+    transition: all 0.5s;
+}

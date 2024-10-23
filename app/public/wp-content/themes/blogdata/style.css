@@ -1,0 +1,84 @@
+/*
+Theme Name: BlogData
+Theme URI: https://themeansar.com/free-themes/blogdata-free-wordpress-theme/  
+Author: Themeansar
+Author URI: http://themeansar.com
+Description: BlogData is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. BlogData is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. BlogData is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/blogdata and documentation at https://docs.themeansar.com/docs/blogdata/
+Version: 1.1.1
+Tested up to: 6.6
+Requires PHP: 7.0
+Requires at least: 5.4
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, translation-ready, custom-background, custom-logo, featured-images, footer-widgets, full-width-template, blog, e-commerce, entertainment
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: blogdata
+*/
+/* ==========================================================================
+   Theme Customizer Editor Icon
+========================================================================== */
+.blogdata-customizer-edit-icon{
+    position: absolute;
+    float: left;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px 0 0 -1px;
+    border: 0;
+    background: 0 0;
+    color: transparent;
+    box-shadow: none;
+    outline: 0;
+    z-index: 500;
+	left: 5%;
+}
+.blogdata-customizer-target-btn{
+    position: absolute;
+    left: -30px;
+    top: 2px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    line-height: 1!important;
+    font-size: 18px;
+    z-index: 5;
+    background: #3582c4!important;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 1px rgba(60,67,74,.15);
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 3px;
+    animation-fill-mode: both;
+    animation-duration: .4s;
+    opacity: 0;
+    pointer-events: none;
+    text-shadow: 0 -1px 1px #135e96,1px 0 1px #135e96,0 1px 1px #135e96,-1px 0 1px #135e96;
+    animation-name: customize-partial-edit-shortcut-bounce-appear;
+    pointer-events: auto;
+}
+.blogdata-customizer-target-btn:hover{
+    background: #4f94d4!important;
+}
+.header-ads .blogdata-customizer-edit-icon{
+	left: 18%;
+    top: -14%;
+}
+.collapse.navbar-collapse .blogdata-customizer-edit-icon{
+    left: 3.5%;
+    top: 7%;
+}
+.back-img .blogdata-customizer-edit-icon[type_id="blogdata_footer_widget_background"]{
+	top: 0%;
+    left: 2.5%;
+}
+#main-nav .blogdata-customizer-edit-icon {
+    z-index: 99999;
+}
+span.customize-partial-edit-shortcut.customize-partial-edit-shortcut-blogdata_archive_page_layout,
+span.customize-partial-edit-shortcut.customize-partial-edit-shortcut-blogdata_single_page_layout,
+span.customize-partial-edit-shortcut.customize-partial-edit-shortcut-blogdata_page_layout {
+  width: 1px !important;
+}
